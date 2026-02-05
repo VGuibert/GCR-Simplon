@@ -1,0 +1,54 @@
+header {
+    border-bottom: solid 2px;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+#clickable-title {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 5rem;
+    height: 5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    background-color: rgb(150, 28, 12);
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section>article {
+    padding: 2%;
+}
+
+section>img {
+    width: 40%;
+    height: 70vh;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+
+}
